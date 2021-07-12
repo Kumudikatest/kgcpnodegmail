@@ -1,0 +1,167 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4cbc48bd-6319-4d95-8ae8-df6c041af948": {
+        "id": "4cbc48bd-6319-4d95-8ae8-df6c041af948",
+        "parent": null,
+        "name": "kgcpnodegmail.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "kgcpnodegmail.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs14",
+          "handler": "handler",
+          "timeout": 72,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "kgcpnodegmail"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1626096843809,
+        "testCases": {
+          "ae428525-dd99-4594-86f7-f337cb4c8c52": {
+            "id": "ae428525-dd99-4594-86f7-f337cb4c8c52",
+            "name": "Test event",
+            "functionId": "4cbc48bd-6319-4d95-8ae8-df6c041af948",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "9c0efd25-c599-4991-8ce3-3113a690c0ed": {
+        "id": "9c0efd25-c599-4991-8ce3-3113a690c0ed",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "00f99714-36cf-4670-91c5-9eb7d2d8bd14": {
+        "id": "00f99714-36cf-4670-91c5-9eb7d2d8bd14",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "bcc5c009-50b3-4a20-9079-6951bd8712eb": {
+        "id": "bcc5c009-50b3-4a20-9079-6951bd8712eb",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "4e21424f-131a-45e3-8c6b-ba7ec6166322": {
+        "id": "4e21424f-131a-45e3-8c6b-ba7ec6166322",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      }
+    },
+    "openFiles": [
+      "4cbc48bd-6319-4d95-8ae8-df6c041af948"
+    ],
+    "currentFileId": "4cbc48bd-6319-4d95-8ae8-df6c041af948",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "pubsubtest12induuu": {
+        "name": "pubsubtest12induuu",
+        "type": "CloudPubSub",
+        "config": {
+          "mode": 1,
+          "topic": {
+            "name": "test12induuu",
+            "subscriptions": []
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "k1",
+        "varValue": "v1",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "AWS_DEFAULT_REGION",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        },
+        "mysql": {
+          "name": "mysql",
+          "version": "2.18.1",
+          "dev": false,
+          "language": "nodejs"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.0",
+    "projectName": "kgcpnodegmail",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {
+      "AWS": "us-east-1"
+    },
+    "lastSave": 1626097053395
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "kgcpnodegmail",
+      "url": "https://github.com/Kumudikatest/kgcpnodegmail"
+    }
+  }
+}
